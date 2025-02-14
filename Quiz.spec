@@ -52,10 +52,12 @@ coll = COLLECT(
 app = BUNDLE(
     coll,
     name='Quiz Kiosk.app',
-    icon=None,
+    icon='QuizIcon.icns',
     bundle_identifier='com.quizkiosk.app',
     info_plist={
         'NSHighResolutionCapable': 'True',
         'LSUIElement': 'False',
+        'CFBundleShortVersionString': '1.1.0',  # Updated version
+        'CFBundleVersion': '1.1.0',  # Updated version
     },
 )
